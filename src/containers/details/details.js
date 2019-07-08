@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
 import axios from "axios";
-import ReplyList from "../../component/details/replyList.js";
-import TxtDetails from "../../component/details/txtDetails.js";
+import ReplyList from "../../components/details/replyList.js";
+import TxtDetails from "../../components/details/txtDetails.js";
 const APIURL = "https://cnodejs.org/api/v1";
 
 class DetailsContainer extends Component {

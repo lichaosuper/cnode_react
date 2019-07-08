@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Switch, Route, Redirect} from 'react-router-dom';
 
-import Book from '../component/book/book';
-import About from '../component/about/about';
+import Book from '../components/book/book';
+import About from '../components/about/about';
 import Index from '../containers/index/index';
 import User from '../containers/user/user';
 import Details from '../containers/details/details';

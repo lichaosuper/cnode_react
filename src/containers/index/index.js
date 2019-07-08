@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
 import axios from "axios";
-import Index from "../../component/index/index.js";
+import Index from "../../components/index/index.js";
 const APIURL = "https://cnodejs.org/api/v1";
 
 class IndexContainer extends Component {

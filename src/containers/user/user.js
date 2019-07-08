@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
 import axios from "axios";
-import User from "../../component/user/user.js";
+import User from "../../components/user/user.js";
 const APIURL = "https://cnodejs.org/api/v1";
 
 class UserContainer extends Component {
