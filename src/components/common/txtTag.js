@@ -37,8 +37,12 @@ function getTag(data) {
 export default class TxtTag extends Component {
 	render() {
 		var nowTag = getTag(this.props.data);
-		return(
-			<Tag color={nowTag.color}>{nowTag.txt}</Tag>
-		);
+		if(nowTag) {
+			return(
+				<Tag color={nowTag.color?nowTag.color:''}>{nowTag.txt}</Tag>
+			);
+		} else {
+			return null;
+		}
 	}
 }
